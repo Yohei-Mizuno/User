@@ -1,17 +1,28 @@
 class User:
-    def __init__(self,name):
+    def __init__(self, name, age, occupation):
         self.name = name
+        self.age = age
+        self.occupation = occupation
 
 
 if __name__ == '__main__':
-    user1 = User('Bob')
-    print(user1.name)
+    ross = User('Ross', 30, 'paleontologist')
+    print(ross)
+    print(ross.name)
+    print(ross.age)
+    print(ross.occupation)
 
-    user2 = User('Joey')
-    print(user2.name)
+    joey = User('Joey', 31, 'actor')
+    print(joey)
+    print(joey.name)
+    print(joey.age)
+    print(joey.occupation)
 
-    user3 = User('Chandler')
-    print(user3.name)
+    chandler = User('Chandler', 31, '???')
+    print(chandler)
+    print(chandler.name)
+    print(chandler.age)
+    print(chandler.occupation)
 
 
 
